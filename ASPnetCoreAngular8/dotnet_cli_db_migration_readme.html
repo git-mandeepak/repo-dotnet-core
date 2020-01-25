@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1561.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Helvetica; color: #000000; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 13.0px Menlo; color: #eadf86; -webkit-text-stroke: #eadf86}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #0000ee; -webkit-text-stroke: #0000ee}
+    span.s1 {font-kerning: none}
+    span.s2 {font: 12.0px Helvetica; font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
+    span.s3 {font-kerning: none; color: #f1f1f0; -webkit-text-stroke: 0px #f1f1f0}
+    span.s4 {font-kerning: none; color: #83aed8; -webkit-text-stroke: 0px #83aed8}
+    span.s5 {font-kerning: none; color: #aae2fe; -webkit-text-stroke: 0px #aae2fe}
+    span.s6 {text-decoration: underline ; font-kerning: none}
+    span.Apple-tab-span {white-space:pre}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">To create DB migrations on MAC os</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">1. Include DOTClitools in .csproj manually under &lt;ItemGroup&gt;</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p2"><span class="s2"><span class="Apple-tab-span">	</span></span><span class="s3">&lt;</span><span class="s4">DotNetCliToolReference</span><span class="s3"> </span><span class="s5">Include</span><span class="s3">=</span><span class="s1">"Microsoft.EntityFrameworkCore.Tools.DotNet"</span><span class="s3"> </span><span class="s5">version</span><span class="s3">=</span><span class="s1">"2.0.0"</span><span class="s3"> /&gt;<br>
+</span></p>
+<p class="p1"><span class="s1">2. In terminal in project root directory run command</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&gt; dotnet restore</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">3. Then</span></p>
+<p class="p1"><span class="s1"><span class="Apple-tab-span">	</span>&gt; dotnet ef --help</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">4. Then References -<span class="Apple-converted-space"> </span></span></p>
+<p class="p3"><span class="s6"><a href="https://www.entityframeworktutorial.net/efcore/cli-commands-for-ef-core-migration.aspx">https://www.entityframeworktutorial.net/efcore/cli-commands-for-ef-core-migration.aspx</a></span></p>
+<p class="p3"><span class="s1"><br>
+</span></p>
+<p class="p3"><span class="s6"><a href="https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli">https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli</a></span></p>
+</body>
+</html>

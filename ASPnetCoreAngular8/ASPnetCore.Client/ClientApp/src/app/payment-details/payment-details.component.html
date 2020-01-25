@@ -1,0 +1,22 @@
+<nav class="navbar navbar-dark bg-primary">
+    <!-- Navbar content -->
+    <a href="" class="navbar-brand text-white">JWT Auth System</a>
+    <label class="my-2 my-sm-0">{{userModel.FullName}}</label>
+    <button class="btn btn-danger my-2 my-sm-0" (click)="onLogout()">Logout</button>
+    <a class="btn btn-primary" routerLink="/adminpanel">Admin Panel</a>
+  </nav>
+
+<div class="jumbotron">
+    <h1 class="display-4 text-center">
+        Payment Detail Register
+    </h1>
+    <hr>
+    <div class="row">
+        <div class="col-md-5">
+            <app-payment-detail></app-payment-detail>
+        </div>
+        <div class="col-md-7">
+            <app-payment-detail-list></app-payment-detail-list>
+        </div>
+    </div>
+</div>

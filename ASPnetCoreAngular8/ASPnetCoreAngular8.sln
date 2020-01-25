@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPnetCore.WebApi", "ASPnetCore.WebApi\ASPnetCore.WebApi.csproj", "{6C3F242A-96AA-41A8-A42D-0840BAA0A68A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPnetCore.Client", "ASPnetCore.Client\ASPnetCore.Client.csproj", "{DE5B4044-9AD6-47A9-93E2-83820A8C7BE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C3F242A-96AA-41A8-A42D-0840BAA0A68A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C3F242A-96AA-41A8-A42D-0840BAA0A68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C3F242A-96AA-41A8-A42D-0840BAA0A68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C3F242A-96AA-41A8-A42D-0840BAA0A68A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE5B4044-9AD6-47A9-93E2-83820A8C7BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE5B4044-9AD6-47A9-93E2-83820A8C7BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE5B4044-9AD6-47A9-93E2-83820A8C7BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE5B4044-9AD6-47A9-93E2-83820A8C7BE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
